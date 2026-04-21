@@ -1,38 +1,15 @@
-# Wan2GP on Google Colab
+Hello,
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Square-Zero-Labs/Wan2GP-on-Colab/blob/main/wan2gp-google-colab.ipynb)
+I am sending this once again for your review before filing suit and coming for 3x the amount owed.
 
-## Video walkthrough
+Thank you for providing the security deposit itemization. After reviewing the deductions, I would like to dispute some charges.
 
-[![Wan2GP on Colab video walkthrough](https://img.youtube.com/vi/kpKYu1TaarI/hqdefault.jpg)](https://youtu.be/kpKYu1TaarI "Watch the Wan2GP Colab setup walkthrough")
+1. Cleaning Fee ($250): Prior to moving out, I hired a professional cleaner at my own expense of $150, which I confirmed with the landlord Neesh was an acceptable arrangement. I also have a video walkthrough of the unit taken after cleaning and before move-out that shows the unit was left in clean condition. Given that I was not informed that the cleaning was not to an acceptable standard at any time, this charge is not warranted.
 
-## Overview
+2. Missing Bed Sheets ($75): I did not remove or dispose of any bed sheets during my tenancy. I believe the sheets in question may be located on the top shelf of the bedroom closet. I'd ask that the unit be re-checked before this charge is applied.
 
-This repository provides a single Google Colab notebook that automates setting up the [Wan2GP](https://github.com/deepbeepmeep/Wan2GP) AI video generation platform in a fresh GPU-backed Colab runtime.
+3. Bathroom Shower Door Alignment ($150): I would consider any minor shift in the shower door alignment to be normal wear and tear over the course of a 12-month lease. Under Texas Property Code § 92.104, landlords may not deduct for conditions resulting from normal wear and tear. I am requesting that this charge be removed.
 
-**Warning:** free Colab GPU runtimes usually provide only 15 GB of T4 VRAM, which is too small for most Wan2GP checkpoints; stick to the `Wan 2.2 TextImage2Video 5B FastWan` model and select 480p to run without memory errors.
+4. Water-Damaged Book ($35): I do not dispute that there was some water damage to a book. However, I am requesting that you provide a receipt or other documentation showing the replacement cost of $35 before I agree to this deduction.
 
-Run the notebook top to bottom to clone Wan2GP, install all system and Python dependencies, and launch the Gradio interface from Colab.
-
-## Notebook workflow
-
-1. **Confirm GPU runtime** – prompts you to enable a GPU accelerator before continuing.
-2. **Configure the workspace path** – adjust `WAN2GP_ROOT` if you want the Wan2GP checkout stored in a custom location.
-3. **Download or update Wan2GP** – clones the upstream repository or pulls the latest changes when it already exists.
-4. **Install system dependencies** – installs video and audio libraries required by Wan2GP.
-5. **Install Python dependencies** – pins PyTorch + CUDA wheels compatible with current Colab runtimes and installs Wan2GP requirements.
-6. **Launch Wan2GP** – starts the Gradio UI; keep the cell running while you interact with Wan2GP.
-
-## Requirements
-
-- Google account with access to Colab GPU runtimes (free tier works; paid tiers provide more VRAM).
-- Stable internet connection while the setup cells run (downloads the Wan2GP repository and model weights).
-
-## Tips
-
-- Colab may time out inactive sessions; rerun the notebook from the top to rehydrate the environment.
-- Keep the final cell running to maintain the public Gradio link; stopping it will terminate the interface.
-
-## Contributing
-
-Issues and pull requests are welcome. If you notice changes in Colab runtimes or Wan2GP dependencies, please open a PR so the notebook stays up to date.
+In total, I am disputing $475 of the $510 in deductions (items 1–3 in full, and item 4 pending documentation). I would appreciate a written response at your earliest convenience.
